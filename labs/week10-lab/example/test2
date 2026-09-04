@@ -1,0 +1,15 @@
+print("\n=== STRING INDEXING ===")
+fruit = 'banana'
+print(f"fruit = {fruit}")
+print(f"fruit[1] = {fruit[1]}")  # 'a'
+
+n = 3
+w = fruit[n - 1]  # fruit[2]
+print(f"n = {n}")
+print(f"w = fruit[n-1] = {w}")  # 'n'
+
+# Show indexing diagram
+print("\nIndexing visualization:")
+print("b a n a n a")
+print("0 1 2 3 4 5")
+print("-6-5-4-3-2-1")
