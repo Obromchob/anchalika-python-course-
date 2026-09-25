@@ -19,7 +19,7 @@ class Car:
         """Method to get car information"""
         return f"{self.year} {self.brand} {self.model} - Mileage: {self.mileage} km"
     
-    @classmethod
+    @classmethod #method ของคลาส ติดอยู่ที่คลาสเสมอไม่ตามลงไปที่ตัววัตถุ
     def get_vehicle_type(cls):
         """Class method to access class attributes"""
         return cls.vehicle_type
@@ -39,3 +39,5 @@ print(car2.get_info())
 # Using methods
 print(car1.drive(100))
 print(car2.drive(250))
+
+print(car1.drive(200))
