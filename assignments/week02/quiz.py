@@ -18,8 +18,8 @@ Below 18.5: Underweight
 
 """
 
-"""
 
+"""
 Question 2: Currency Converter (20 points)
 
 Write a program that converts between Thai Baht (THB) and US Dollars (USD).

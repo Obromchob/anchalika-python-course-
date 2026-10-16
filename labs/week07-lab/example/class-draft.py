@@ -5,16 +5,25 @@ programming ==> การเขียนโปรแกรม
 2) Object-Oriented Programming (OOP) ==> การเขียนโปรแกรมเชิงวัตถุ ==> java, c#, python
 """
 
+<<<<<<< HEAD
 #วิธีการ หรือแนวทางการแก้ปัญหา template/แม่แบบ/พิมพ์เขียว/ตรายาง
 class ClassName:
     """Class docstring"""
 
     #ข้อมูล ที่มีความจำเป็นต้องใช้ในการแก้ไขปัญหา
+=======
+# วิธีการ หรือแนวทางในการแก้ปัญหา template/แม่แบบ/พิมพ์เขียว/ตรายาง
+class ClassName:
+    """Class docstring"""
+    
+    # ข้อมูล ที่จำเป็นในการแก้ปัญหา
+>>>>>>> upstream/main
     def __init__(self, parameters):
         # Constructor method
         self.attribute = value
         self.attribute2 = value
         self.attribute3 = value
+<<<<<<< HEAD
 
     #การกระทำ ที่ใช้เพื่อแก้ปัญหา ต้องทำอะไรบ้าง
     def method_name(self):
@@ -25,8 +34,24 @@ class ClassName:
         return ...
 
 #เริ่มต้นใช้งานคลาส ==> สร้างวัตถุจากคลาส
+=======
+    
+    # การกระทำ เพื่อแก้ปัญหา ต้องทำอะไรบ้าง
+    def method_name(self):
+        # Instance method
+        return something
+    
+    def method_name2(self):
+        return ...
+
+# เริ่มใช้งานคลาส ==> สร้างวัตถุจากคลาส
+>>>>>>> upstream/main
 myObj = ClassName(parameters)
 
 print(myObj.attribute)
 resultFromMethod = myObj.method_name()
+<<<<<<< HEAD
 print(myObj.attribute)
+=======
+print(myObj.method_name2())
+>>>>>>> upstream/main
